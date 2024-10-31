@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MatanWeatherApp/static/css/main.79b96af0.css",
+    "main.js": "/MatanWeatherApp/static/js/main.50c88f8e.js",
+    "index.html": "/MatanWeatherApp/index.html",
+    "main.79b96af0.css.map": "/MatanWeatherApp/static/css/main.79b96af0.css.map",
+    "main.50c88f8e.js.map": "/MatanWeatherApp/static/js/main.50c88f8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79b96af0.css",
+    "static/js/main.50c88f8e.js"
+  ]
+}
