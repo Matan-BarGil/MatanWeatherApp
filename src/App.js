@@ -31,7 +31,7 @@ function App() {
           try{
           if(city.length === 0 || !isAlphabetOnly(city)) {throw new Error("city has not been found");}
           const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=c8f8f5fbe9ef4b06988180949242310&q=${city}`);
-          if(!response.ok && city !="") {throw new Error("city has not been found");}
+          if(!response.ok && city !=="") {throw new Error("city has not been found");}
 
           const data = await response.json();
           setWeatherInfo(data.current);
